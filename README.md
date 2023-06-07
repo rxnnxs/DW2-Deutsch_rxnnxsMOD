@@ -17,6 +17,16 @@ Siehe rechts im Bereich "Releases".
 
 <h2>Installation</h2>
 
+---
+Einschub MOD-Variante:
+Bis jetzt ist nur der 1.1.4.4 Ordner in der Struktur so umgestellt, das dieser Inhalt "nur" noch in den "Distant Worlds 2" Ordner hineinkopiert werden muss.
+Danach bitte die angepasste Batch Datei unter data/DW2 starten. Die Dateien werden in einem Baclup Ordner gesichert bevor die neuen Dateien sowie die beiden Ordner  Dialog und Galactopedia erstellt werden.
+
+Im Mod-Ordner befindet sich nun der Ordner "DW2-Deutsch".
+
+Bei einem Neustart von Distant Worlds 2, unter Mods diesen Mod aktivieren, DW2 noch einmal neu starten und dann ein neues Spiel beginnen.
+---
+
 In den ZIP-Dateien befinden sich die deutschen Dateien, mit denen die jeweiligen englischen Dateien in ...\\\<DW2-Spieleverzeichnis\>\\data\\ überschrieben werden müssen. Das englische Galactopedia-Verzeichnis vorher löschen, sonst erhält man doppelte Einträge.
 
 Falls man den DLC besitzt, kann man die Dateien des entsprechenden ZIP-Files in denselben Ordner (...\\\<DW2-Spieleverzeichnis\>\\data\\) kopieren und die englischen Dateien überschreiben.
