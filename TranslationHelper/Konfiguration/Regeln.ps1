@@ -5,7 +5,7 @@
         @{
             Name = "Name des Regelsets (nur für die Ausgabe / das Log)"
             Dateien = @("Datei1.xml", "Datei2.xml", "DateienMitWildcard_*.xml", ...)
-            Pfade = @(
+            Regeln = @(
                 "/XPath/zu/Element1/Welches/Geprüft/Oder/Übersetzt/Werden/Soll"
                 "/XPath/zu/Element2/Welches/Geprüft/Oder/Übersetzt/Werden/Soll"
                 ...
@@ -25,7 +25,7 @@ $Nicht_Verwendetes_Beispiel = @(
         Dateien = @(
             "Governments.xml"
         )
-        Pfade = @(
+        Regeln = @(
             # Diese Regeln verarbeitet Governments mit IDs von 0-7 und prüft unterschiedliche Eigenschaften.
             0..7 | % {
                 "/ArrayOfGovernment/Government[GovernmentId='$($_)']/Name"
@@ -50,7 +50,7 @@ $Nicht_Verwendetes_Beispiel = @(
             "ShipHulls_Ikkuro.xml"
         )
         # Diese Regel geht einfach ALLE Namen durch.
-        Pfade = @(
+        Regeln = @(
             "/ArrayOfShipHull/ShipHull/Name" 
         )
     }
@@ -65,9 +65,11 @@ $Nicht_Verwendetes_Beispiel = @(
         Dateien = @(
             "ArmyTemplates.xml"
             "ComponentDefinitions.xml"
+			"CreatureTypes.xml"
             "FleetTemplates.xml"
             "OrbTypes.xml"
             "PlanetaryFacilityDefinitions.xml"
+	        "PlanetaryFacilityDefinitions_Ancient_Guardian_Vaults.xml"
             "ResearchProjectDefinitions.xml"
             "ShipHulls.xml"
             "ShipHulls_*.xml"
@@ -76,7 +78,7 @@ $Nicht_Verwendetes_Beispiel = @(
             "Artifacts_Dhayut.xml"
             "Artifacts_Ikkuro.xml"
         )
-        Pfade = @(
+        Regeln = @(
             "/*/*/Name"
         )
     }
@@ -84,10 +86,11 @@ $Nicht_Verwendetes_Beispiel = @(
         Name = "Basic-Versionen #2 Name + Description"
         Dateien = @(
             "Artifacts.xml"
+			"Artifacts_AncientGuardianVaults.xml"
             "ColonyEventDefinitions.xml"
             "Resources.xml"
         )
-        Pfade = @(
+        Regeln = @(
             "/*/*/Name"
             "/*/*/Description"
         )
@@ -96,8 +99,9 @@ $Nicht_Verwendetes_Beispiel = @(
         Name = "Basic-Versionen #3 Game Events"
         Dateien = @(
             "GameEvents.xml"
+			"GameEvents_Ancient_Guardian_Vaults.xml"
         )
-        Pfade = @(
+        Regeln = @(
             "/*/*/PlacementActions/GameEventAction/MessageTitle"
             "/*/*/PlacementActions/GameEventAction/Description"
             "/*/*/PlacementActions/GameEventAction/ChoiceButtonText"
@@ -111,7 +115,7 @@ $Nicht_Verwendetes_Beispiel = @(
         Dateien = @(
             "GameEvents_Governments.xml"
         )
-        Pfade = @(
+        Regeln = @(
             "/*/*/TriggerActions/GameEventAction/MessageTitle"
             "/*/*/TriggerActions/GameEventAction/Description"
         )
@@ -121,7 +125,7 @@ $Nicht_Verwendetes_Beispiel = @(
         Dateien = @(
             "Governments.xml"
         )
-        Pfade = @(
+        Regeln = @(
             "/*/*/Name"
             "/*/*/Description"
             "/*/*/LeaderTitle"
@@ -135,7 +139,7 @@ $Nicht_Verwendetes_Beispiel = @(
         Dateien = @(
             "Races.xml"
         )
-        Pfade = @(
+        Regeln = @(
             "/*/*/Description"
         )
     }
@@ -144,9 +148,9 @@ $Nicht_Verwendetes_Beispiel = @(
         Dateien = @(
             "TourItems.xml"
         )
-        Pfade = @(
-            "/*/*/Title/Steps/TourStep/StepTitle"
-            "/*/*/Title/Steps/TourStep/MarkupText"
+        Regeln = @(
+            "/*/*/Steps/TourStep/StepTitle"
+            "/*/*/Steps/TourStep/MarkupText"
         )
     }
     @{
@@ -165,7 +169,7 @@ $Nicht_Verwendetes_Beispiel = @(
             "TroopDefinitions_Dhayut.xml"
             "TroopDefinitions_Ikkuro.xml"
         )
-        Pfade = @(
+        Regeln = @(
             "/*/*/Name"
         )
     }
@@ -175,7 +179,7 @@ $Nicht_Verwendetes_Beispiel = @(
             "ColonyEventDefinitions_Dhayut.xml"
             "ColonyEventDefinitions_Ikkuro.xml"
         )
-        Pfade = @(
+        Regeln = @(
             "/*/*/Name"
             "/*/*/Description"
         )
@@ -185,8 +189,9 @@ $Nicht_Verwendetes_Beispiel = @(
         Dateien = @(
             "GameEvents_Dhayut.xml"
             "GameEvents_Ikkuro.xml"
+			"GameEvents_Ikkuro_RaceEvents.xml"
         )
-        Pfade = @(
+        Regeln = @(
             "/*/*/PlacementActions/GameEventAction/MessageTitle"
             "/*/*/PlacementActions/GameEventAction/Description"
             "/*/*/PlacementActions/GameEventAction/ChoiceButtonText"
@@ -201,7 +206,7 @@ $Nicht_Verwendetes_Beispiel = @(
             "GameEvents_HarmoniousUtopia_Governments.xml"
             "GameEvents_SurveillanceOligarchy_Governments.xml"
         )
-        Pfade = @(
+        Regeln = @(
             "/*/*/TriggerActions/GameEventAction/MessageTitle"
             "/*/*/TriggerActions/GameEventAction/Description"
         )
@@ -212,7 +217,7 @@ $Nicht_Verwendetes_Beispiel = @(
             "Governments_Dhayut.xml"
             "Governments_Ikkuro.xml"
         )
-        Pfade = @(
+        Regeln = @(
             "/*/*/Name"
             "/*/*/Description"
             "/*/*/LeaderTitle"
@@ -227,7 +232,7 @@ $Nicht_Verwendetes_Beispiel = @(
             "Races_Dhayut.xml"
             "Races_Ikkuro.xml"
         )
-        Pfade = @(
+        Regeln = @(
             "/*/*/Description"
             "/*/*/FeatureExplanations/string"
         )
