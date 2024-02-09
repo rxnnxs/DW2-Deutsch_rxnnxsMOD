@@ -1,7 +1,7 @@
 TLDR:
 Nach jedem Update oder patch (die Datei wird egal ob in englischer Ausgabe oder deutschem Patch generiert):
 
-1. GameTextErezeugen.bat ausführen.
+1. GameTextErzeugen.bat ausführen.
 2. Mod im Spiel aktivieren
 3. Neu starten
 4. Mod läuft
@@ -24,8 +24,8 @@ suchen nach:
 ersetzen durch:
 \1;
 
-es wird nach allen Explanation stellen gesucht.
-ersetzt wird der gefundene Text, hinter dem semikolon wird nichts hingeschrieben
+es wird nach allen "Explanation"-Stellen gesucht.
+Ersetzt wird der gefundene Text, hinter dem semikolon wird nichts hingeschrieben
 
 ---
 
@@ -36,7 +36,7 @@ batch datei GameTextErzeugen.bat:
 2. entfernt die detaillierte Beschreibung
 3. schreibt sie als gametext.txt in diesen Ordner hinein um den Mod dann mit der aktuellen Version zu verwenden
 
-Benutzt wird:
+Benutzt wird der Syntax wie hier als Beispiel:
 
 theFile.xml FindRepl "(<TagName>).*(</TagName>)" "$1NewValue$2"
 
