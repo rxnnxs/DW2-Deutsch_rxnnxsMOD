@@ -4080,7 +4080,7 @@ This pirate faction is predominantly composed of RACE		;Diese Piratenfraktion be
 EMPIRE encountered		;{0} entdeckt
 Independent Colony of RACE encountered		;Unabhängige Kolonie von {0} entdeckt
 They could prove useful allies if handled properly		;Obwohl sie Piraten sind, könnten sie sich bei richtiger Behandlung als nützliche Verbündete erweisen
-They are unlikely to be useful allies		;Es ist unwahrscheinlich, dass sie nützliche Verbündete sind
+They are unlikely to be useful allies		;Es ist unwahrscheinlich, dass sie nützliche Verbündete sein werden
 Research projects are available on our tech tree that can improve our understanding of the RACE		;In unserem Tech-Baum sind Forschungsprojekte verfügbar, die unser Verständnis für die {0} verbessern können. Wir sollten diese Projekte erforschen, um die Beziehungen zu den {0} zu verbessern.
 Independent Colony Friendly		;Diese Kolonie wird uns möglicherweise erlauben, sie zu kolonisieren, oder sie werden sich uns sogar anschließen, wenn wir sie richtig behandeln.
 Independent Colony Hostile		;Wir können einmarschieren und die Kolonie durch die Landung von Truppen übernehmen. Oder wir könnten versuchen, sie zu kolonisieren, indem wir ein Kolonieschiff schicken, obwohl dies aufgrund ihrer negativen Sicht auf uns wahrscheinlich nicht gelingen wird.
