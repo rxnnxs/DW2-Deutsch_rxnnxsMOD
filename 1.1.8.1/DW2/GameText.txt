@@ -4185,12 +4185,12 @@ The RACE are naturally FEELING towards us		;Die {0} sind uns gegenüber naturgem
 This empire is predominantly composed of SAME RACE		;Dieses Volk besteht überwiegend aus {0}, genau wie unser Volk.
 This pirate faction is predominantly composed of SAME RACE		;Diese Piratenfraktion besteht überwiegend aus {0}, genau wie unser Volk.
 They would likely be favourable towards a treaty with us		;Sie würden wahrscheinlich irgendwann in der Zukunft einem Abkommen mit uns wohlwollend gegenüberstehen
-This empire is predominantly composed of RACE		;Dieses Volk besteht überwiegend aus Spezies {0}.
-This pirate faction is predominantly composed of RACE		;Diese Piratenfraktion besteht überwiegend aus Spezies {0}.
+This empire is predominantly composed of RACE		;Dieses Volk besteht überwiegend aus der Spezies {0}.
+This pirate faction is predominantly composed of RACE		;Diese Piratenfraktion besteht überwiegend aus der Spezies {0}.
 EMPIRE encountered		;{0} entdeckt
 Independent Colony of RACE encountered		;Unabhängige Kolonie mit {0}-Spezies entdeckt
 They could prove useful allies if handled properly		;Obwohl sie Piraten sind, könnten sie sich beim richtigen Umgang mit diesen als nützliche Verbündete erweisen
-They are unlikely to be useful allies		;Es ist unwahrscheinlich, dass sie nützliche Verbündete sind
+They are unlikely to be useful allies		;Es ist unwahrscheinlich, dass sie nützliche Verbündete sein werden
 Research projects are available on our tech tree that can improve our understanding of the RACE		;In unserem Technologie-Baum sind Forschungsprojekte verfügbar, die unser Verständnis für die {0}-Spezies verbessern können. Wir sollten diese Projekte erforschen, um die Beziehungen zu den {0} zu verbessern.
 Independent Colony Friendly		;Diese Kolonie wird uns möglicherweise erlauben, sie zu kolonisieren, oder sie werden sich uns sogar anschließen, wenn wir sie richtig behandeln.
 Independent Colony Hostile		;Wir können die Kolonie einfallen und sie durch die Landung von Truppen übernehmen. Oder wir könnten versuchen, sie zu kolonisieren, indem wir ein Kolonieschiff schicken, obwohl dies aufgrund ihrer negativen Sicht auf uns wahrscheinlich nicht gelingen wird.
